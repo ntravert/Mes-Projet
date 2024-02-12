@@ -1,0 +1,85 @@
+body header {
+  background: rgb(45, 57, 69);
+}
+body header nav div ul li a {
+  color: white;
+}
+body header nav div ul li a:hover {
+  color: white;
+}
+body .header_middle {
+  padding: 25px;
+  background: rgb(0, 181, 127);
+  color: white;
+}
+body .header_middle h2 {
+  font-size: 64px;
+}
+body .header_middle img {
+  padding: 10px;
+}
+body .header_middle .row {
+  padding: 25px;
+}
+body .header_middle .row .header_middle_decoration {
+  height: 3px;
+  border-bottom: 5px solid white;
+}
+body .header_middle .top_text {
+  font-size: 24px;
+}
+body .portfolio {
+  padding: 20px;
+}
+body .portfolio .head_portfolio h3 {
+  font-size: 48px;
+}
+body .portfolio .head_portfolio .row .header_middle_decoration {
+  height: 3px;
+  border-bottom: 5px solid rgb(17, 20, 60);
+}
+body .portfolio .top_image {
+  padding: 25px 25px;
+  gap: 2rem;
+}
+body .about {
+  padding: 20px;
+  background: rgb(0, 181, 127);
+  color: white;
+}
+body .about .head_about h2 {
+  font-size: 64px;
+}
+body .about .head_about .row .header_middle_decoration {
+  height: 3px;
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+body .about .middle_about {
+  padding: 25px;
+}
+body .about .button_about {
+  padding: 20px;
+}
+body .about .button_about .row .btn {
+  color: white;
+  padding: 10px;
+}
+body .contact {
+  padding: 20px;
+}
+body .contact .head_contact .row .header_middle_decoration {
+  height: 3px;
+  border-bottom: 5px solid rgb(17, 20, 60);
+}
+body .contact .formulaire form .button_contact {
+  padding: 10px;
+}
+body .contact .formulaire form .button_contact .row div .btn {
+  background: rgb(0, 181, 127);
+  color: white;
+}
+body .footer_head {
+  background: #2C3E50;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,181 @@
+body {
+    header {
+        background: rgb(45, 57, 69);
+
+        nav {
+            div {
+                ul {
+                    li {
+                        a {
+                            color: white;
+
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .header_middle {
+        padding: 25px;
+        background: rgb(0, 181, 127);
+        color: white;
+
+        h2 {
+            font-size: 64px;
+        }
+
+        img {
+            padding: 10px;
+        }
+
+
+        .row {
+            padding: 25px;
+
+            .header_middle_decoration {
+                height: 3px;
+                border-bottom: 5px solid white;
+            }
+        }
+
+        .top_text {
+            font-size: 24px
+        }
+
+    }
+
+    .portfolio {
+        padding: 20px;
+
+        .head_portfolio {
+
+            h3 {
+                font-size: 48px;
+            }
+
+            .row {
+
+
+                .header_middle_decoration {
+                    height: 3px;
+                    border-bottom: 5px solid rgb(17, 20, 60);
+
+                }
+
+            }
+        }
+
+        .top_image {
+
+            padding: 25px 25px;
+            gap: 2rem;
+
+        }
+    }
+
+    .about {
+        padding: 20px;
+
+
+        background: rgb(0, 181, 127);
+        color: white;
+
+        .head_about {
+
+            h2 {
+                font-size: 64px;
+
+
+            }
+
+            .row {
+
+
+                .header_middle_decoration {
+                    height: 3px;
+                    border-bottom: 5px solid rgb(255, 255, 255);
+
+                }
+
+            }
+
+        }
+
+        .middle_about {
+
+            padding: 25px;
+
+        }
+
+        .button_about {
+
+            padding: 20px;
+
+            .row {
+                .btn {
+                    color: white;
+                    padding: 10px;
+
+                }
+
+            }
+        }
+    }
+
+    .contact {
+        padding: 20px;
+
+        .head_contact {
+
+            .row {
+
+                .header_middle_decoration {
+                    height: 3px;
+                    border-bottom: 5px solid rgb(17, 20, 60);
+
+                }
+            }
+        }
+
+        .formulaire {
+            form {
+                .button_contact {
+                    padding: 10px;
+
+                    .row {
+                        div {
+                            .btn {
+                                background: rgb(0, 181, 127);
+                                color: white;
+
+                            }
+                        }
+
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .footer_head {
+        background: #2C3E50;
+        color: white;
+        text-align: center;
+        
+        .middle_footer {
+            .row{
+                
+
+         }
+        }
+    }
+
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+      
+        body {
+            font-family: monospace;
+            background-color: rgba(226, 226, 226, 0.925);
+        }
+
+        .emmet{
+            background-color: rgb(182, 182, 182);
+            text-align: center;
+            color: rgb(230, 75, 13);
+            border-style: groove;
+            border: red solid 2px;
+            font-family: sans-serif;
+        }
+        
+        .header {
+            color: black;
+        }
+
+        pre {
+            background-color: #fff;
+            size: 14px;
+            color: #000
+        }
+
+        h1 {
+            font-family: sans-serif;
+        }
+
+        p {
+            font-family: sans-serif;
+            color: #2b2b2b
+        }
+        .p1 {
+            line-height: 2em;
+        }
+        .intro {
+            color: rgb(230, 75, 13);
+        }
+        footer {
+            font-family: sans-serif;
+            background-color: #ebebeb;
+            text-align: center;
+            border-style: groove;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <header class="emmet">
+        <h1>Emmet</h1>
+
+        <p class="header"> Les differentes commandes du plugin Emmet</p>
+    </header>
+
+    <pre>!⇥</pre>
+
+    <pre>h2⇥</pre>
+
+    <pre>h2{Introduction}⇥</pre>
+
+    <h1>Introduction</h1>
+
+    <pre>article.intro⇥</pre>
+    <pre>article#intro⇥</pre>
+    <pre>article[title=introduction]⇥</pre>
+    <pre>p>lorem10⇥</pre>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quas et.</p>
+
+    <pre>p>lorem100⇥</pre>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+    <pre>p*3⇥</pre>
+    <pre>p*3>lorem20⇥</pre>
+
+    <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Ratione delectus alias iusto iure? Repellendus incidunt magni dolore nemo ratione vel.</br> Aliquam similique eum ipsam eligendi odio. Quis qui mollitia obcaecati!</p>
+
+    <pre>ul>li*5⇥</pre>
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <pre>ul>li*5lorem3⇥</pre>
+
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+    </ul>
+
+    <pre>ul>li{item $}*5⇥</pre>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+
+    </ul>
+
+    <pre>article.intro(h1{Introduction}+p*3>lorem)⇥</pre>
+
+    <h1 class="intro">Introduction</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere similique quidem omnis iusto neque, quibusdam laudantium in rerum minima, amet, tempora obcaecati officiis molestias beatae!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nisi voluptas corrupti repellendus accusantium, alias sit. Facilis non temporibus asperiores voluptas provident praesentium, velit quam rerum necessitatibus quisquam eum ducimus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, numquam. Reprehenderit error vel dolor incidunt laborum, iure aliquid eaque doloremque sint ab rerum, placeat harum architecto necessitatibus!</p>
+
+    <footer>
+        <img src="img/3wAcademie.png" alt="">
+        Ce matériel pédagogique est la propriété de la <a href="3W Academy">3W Academy</a> Cet exercice a été réalisé par Stephane Pereck.
+        
+    </footer>
+
+
+    
+    
+
+    
+</body>
+</html>

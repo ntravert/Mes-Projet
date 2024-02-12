@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .module{
+            color: red;
+            background-color: rgb(216, 216, 216);
+            border-style: groove;
+            border: red solid 2px;
+            text-align: center;
+        }
+        .header {
+            color: black;
+        }
+        footer {
+            text-align: center;
+            background-color: #ebebeb;
+            border-style: groove;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="module">
+        <h1>Module 1 - Quelques citations</h1>
+        <p class="header">Découverte des citations en HTML.</p>
+    </header>
+
+    <h1>Présentation</h1>
+
+    <h2>Le langage HTML permet de gérer les citations de 2 manières différentes</h2>
+    
+    <ul>
+        <li>Citer une phrase ou un terme (en ligne) au sein d'un paragraphe: utilisation de l'élément inline q ; dans ce cas, le texte est en italique (par défaut).</li>
+        <li>Pour une citation plus longue ou pour un extrait complet d'un document : utilisation de l'élément blockquote ; dans ce cas, le texte est indenté (par défaut).
+        </li>
+    </ul>
+
+    <h2>Pour ajouter indiquer la source de la citation, on utilisera</h2>
+    <ul>
+        <li>L'élément cite à l'intérieur de l'élément blockquote pour y mettre le titre de la source (titre de l'oeuvre).</li>
+        <li>L'attribut cite dans l'élément q pour y mettre la référence vers la source (une URL vers une page Web).</li>
+    </ul>
+    <p>Par ailleurs, la langue de la citation peut etre spécifiée avec l'attribut lang</p>
+
+    <h1>Citations courte</h1>
+    <p>Une citation de Marlène Dietrich en anglais: <em>« In language gender is particularly confusing. Why, please, should a table be male in German, female in French, and castrated in English ? » </em> et en français: <i> « En langue, le genre est particulièrement déroutant. Pourquoi, s'il vous plaît, une table devrait-elle être masculine en allemand, féminine en français et castrée en anglais ? » </i></p>
+
+    <h1>Citation Longue</h1>
+
+    <p><i>« La <cite><strong>dictature parfaite :</strong> une dictature qui aurait les apparences de la démocratie, une prison sans murs dont les prisonniers ne songeraient pas à s'évader. Un système d'esclavage où, grâce la consommation et au divertissement, les esclaves auraient l'amour de leur servitude. » </cite></i></p>
+    <p><i>« Un <strong>État totalitaire</strong> efficient serait celui dans lequel le tout-puissant comité exécutif des chefs politiques et leur armée de directeurs auraient la haute main sur une population d'esclaves qu'il serait inutile de contraindre, parce qu'ils auraient l'amour de leur servitude.
+        La leur faire aimer - telle est la tâche assignée dans les Etats totalitaires d'aujourd'hui aux ministères de la propagande, aux rédacteurs en chef des journaux, et aux maîtres d'école. » </i></p>
+
+        <p><a href="https://3wacademy.fr/">Le meilleur des mondes</a> <i>Aldous Huxley</i></p>
+
+
+        <footer>
+            Ce matériel pédagogique est la propriété de la <a href="3W Academy">3W Academy</a> Cet exercice a été réalisé par <a href="">Christianne Dumont</a> et Stephane Pereck.
+        </footer>
+
+</body>
+</html>

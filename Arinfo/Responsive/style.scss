@@ -1,0 +1,153 @@
+ 
+ 
+ 
+ body {
+     header {
+         .navbar {
+             .navbar-nav {
+                 .nav-item {
+                     .nav-link {
+                         background-color: black;
+                         color: white;
+                         border: 1px solid rgb(0, 0, 0);
+                         border-radius: 0;
+                         
+                         &:hover {
+                            background-color: rgb(92, 90, 90);
+                         }
+                         /* Bordure carrée */
+                     }
+                     @media (max-width: 500px) {
+                        .nav-link {
+                        
+                            text-align: center;
+                            background-color: transparent;
+                            border: none;
+                        }
+                     }
+                 }
+             }
+         }
+     }
+
+     .hero {
+
+         background: #137EAC;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 50vh;
+
+
+
+         .hero_title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+
+           h1{
+            
+            font-family: Kelly Slab;
+             font-size: 50px;
+             font-style: normal;
+             font-weight: 400;
+             line-height: normal;
+             text-decoration-line: underline;
+             padding: 42px 31px;
+             align-items: center;
+           }
+         }
+
+         .hero_text {
+             font-size: 20px;
+
+
+         }
+         @media (max-width: 500px) {
+            .hero_text {
+            
+                width: 90%;
+            }
+         }
+     }
+
+     @media (max-width: 500px) {
+        .hero {
+        
+            flex-direction: column;
+            padding-bottom: 2rem;
+        }
+     }
+
+
+     .about {
+         background: #41665B;
+
+         .about_title {
+             text-align: center;
+             text-decoration-line: underline;
+
+
+         }
+
+         .about_text {
+             color: black;
+
+             p {
+                 margin: 0;
+                 padding: 1rem;
+             }
+         }
+     }
+
+     .top {
+
+         background: #988389;
+
+         .top_title {
+             margin-top: 0;
+         }
+
+         @media (max-width: 500px) {
+            .top_title {
+            
+                text-align: center;
+            }
+         }
+     }
+
+     .top_left {
+         text-decoration-line: underline;
+
+
+
+     }
+
+     .container1 {
+        
+         p {
+             text-decoration-line: underline;
+         }
+
+     }
+
+     footer {
+         background: #1D2725;
+
+         .row {
+             color: white;
+
+
+             .col-md-6 {
+
+                 p {
+                     margin: 0;
+                 }
+
+             }
+         }
+     }
+
+
+ }

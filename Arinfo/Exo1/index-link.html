@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+        
+    </head>
+    <body>
+          
+        <h1 id="top">Les principales balises (titre pricipal placé dans l'élément.)</h1>
+
+        <h2>Les balises de type bloc (sous-titre placé dans l'élément)></h2>
+
+        <h3>Un sous-titre de niveau 3</h3>
+
+        <p>Un paragraphe (élément).</p>
+
+        <p>Un second paragraphe séparé du premier par une marge (par défaut).</p>
+
+        <p>Le contenu d'un élément (par exemple un paragraphe) est placé entre les balises ouvranteet la balise fermante de cet élément.</p>
+
+        <p>Pour écrire les caractères < (inférieur à), > (supérieur à) et & (esperluette) il faut utiliser des entitées HTML.</em>
+
+        <pre>	Ce texte est pré-formaté.
+            L'élément respecte les caratères spéciaux de la source comme les sauts de ligne,
+            les tabulations et
+            les espaces [    ].
+            Par défaut, l'élément  affiche son contenu avec une police à chasse fixe (monospace).
+            L'élément  est généralement utilisé pour écrire du code.
+        </pre>
+
+        <!-- Un commentaire en HTML -->
+
+        <div class="colored">L'élément est générique sans aucun sens particulier, il est utilisé pour structurer le document.</div>
+        <div class="colored">Un second élément n'est pas séparé du précedant par une marge (par défaut).</div>
+
+        <h3>Les listes (un autre sous-titre de niveau 3)</h3>
+
+
+
+        <ol>
+            <li>Une</li>
+            <li>liste</li>
+            <li>ordonné</li>
+        </ol>
+
+        <ul>
+            <li>Une</li>
+            <li>liste</li>
+            <li>non</li>
+            <li>ordonné</li>
+        </ul>
+
+        <dl>
+            <dt>Terme1</dt>
+            <dd>Définition1</dd>
+            <dt>Terme2</dt>
+            <dd>Definition2</dd>
+        </dl>
+
+        <ul>
+            <li>1. Une</li>
+            <li>2. liste
+          <ul>
+             <li>2.1. avec</li>
+             <li>2.2 une</li>
+             <li>2.2 liste</li>
+             <li>2.2 imbriquée</li>
+
+        </ul>
+        <li>3. (attention, l'élément  ne peut contenir que ses éléments)</li>
+        
+    </li>
+ </ul>
+
+
+ <h2>Les balises de type inline (un autre sous-titre de niveau 2)</h2>
+
+ <p>Une <strong>portion de texte importante</strong> placée dans l'élément <code> strong</code></p>
+
+ <p> Un hyperlien vers <a href="https://3wacademy.fr/">3W Academy</a>.</p>
+
+ <p>Il existe différents types d'hyperliens :</p>
+
+
+ <ul>
+    <li>Un site internet: <a href="https://3wacademy.fr/">3W Academy</a></li>
+    <li>Une autre page du site internet: <a href="https://3wacademy.fr/ecole/nous-rencontrer">Nous Contacter</a></li>
+    <li>Une adresse email: <a href="contact@3wa.fr">contact@3wa.fr</a></li>
+    <li>Un numéro de téléphone : <a href="0175434242">01 75 43 42 42</a></li>
+    <li>Une ancre sur la page : <a href="#">haut de la page</a></li>
+ </ul>
+
+ <p>Un lien avec l'attribut target="_blank" s'ouvre dans un nouvel onglet: <a href="https://3wacademy.fr/" target="_blank">3W Academy</a>.</p>
+
+
+ <p>Une image <img src="img/3wAcademie.png" alt="3W Academie">dans un paragraphe (observer l'alignement vertical). L'attribut alt est obligatoire.</p>
+
+
+ <p>Une image dans un lien <a href="https://3wacademy.fr/"> <img src="img/3wAcademie.png"></a></p>
+
+ <p>Un paragraphe contenant un saut
+    <br>de ligne</p>
+
+<!--Demander-->    <p>Une abbréviation avec l'élément: le code d'une page web est écrit en <abbr title="HTLM">HTML</abbr> avec l'attribut title.</p>
+
+
+<p>Une <dfn>définition</dfn> avec l'élément <code>dfn</code></p>
+
+<p>Utilisation de l'élément <code>sub</code> pour écrire des indices, par exemple dans une formule chimique: 4 NH<sub>3</sub> + 5 O<sub>2</sub> → 4 NO + 6 H<sub>2</sub>O </p>
+
+<p>Utilisation de l'élément <code>sup</code> pour écrire des exposants, par exemple dans une formule mathématique: 3<sup>2</sup>= 9 ou un indicateur ordinal: le 3<sup>ème</sup>arrondissement de Paris.</p>
+
+<p>Utilisation de l'élément <code>ins</code> pour indiquer une <ins>portion texte insérée</ins> et de l'élément <code>del</code>pour indiquer <del>une portion de texte supprimée.</del></p>
+
+<p>L'element <mark>mark</mark> représente un texte mis en surbrillance à cause de sa pertinence dans le contexte, par exemple lors d'une recherche d'un mot clé dans le contenu d'un site web. Il ne doit pas être utilisé à des fins de coloration syntaxique.</p>
+
+<p>Un exemple de code informatique (ici du JavaScript) dans un élément <code>code</code>et un élément <code>pre</code></p>
+
+<code><pre>
+	for (let i = 0; i < 5; i++) {
+		console.log(i);
+	}
+</pre></code>
+
+<p><span class="colored">Ce texte est contenu dans un élément <code>span</code></span>. Cet élément n'a pas de sens particulier, il est systématiquement utilisé avec du style CSS.</p>
+
+<h2>Bonnes pratiques (un autre sous-titre de niveau 2)</h2>
+     <p>Les titres nous permettent de structurer notre texte et de faciliter la lecture. Ils sont également importants pour optimiser le référencement naturel de la page web.</p>
+     <p>Il ne faut pas sauter des niveaux de titre : on commence toujours par un titre de niveau 1, puis un titre de niveau 2, puis un titre de niveau 3 et ainsi de suite.</p>
+     <p>Sauter un niveau de titre intermédiaire constitue une mauvaise pratique : par exemple un titre de niveau 1, suivi d'un titre de niveau 3.</p>
+     <p>Toujours placer les éléments de type inline dans un élément de type bloc (et jamais l'inverse)</p>  
+
+
+     <h2>License (un autre sous-titre de niveau 2)</h2>
+
+    <img src="img/3wAcademie.png">
+
+    <p>Ce matériel pédagogique est la propriété de la <a href="https://3wacademy.fr/">3W Academie</a> Cet exercice a été réalisé par <a href="Christiane Dumont">Christiane Dumont</a> et Stephane Pereck.</p>
+
+    </body>
+ 
+</html>

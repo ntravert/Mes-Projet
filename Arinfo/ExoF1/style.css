@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: #40CCEA;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+
+}
+
+nav li {
+
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: 0;
+    font-size: 20px;
+}
+
+h1 {
+
+    text-align: center;
+    color: #40CCEA;
+    font-family: 'Open Sans', sans-serif;
+    margin: .5rem;
+}
+
+#toto {
+
+    border-bottom: 1px dotted #40CCEA;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+section {
+    width: 60%;
+    margin: 10px auto;
+}
+
+.vienne_wrapper {
+    display: flex;
+    gap: 1rem
+}
+
+#vienne {
+
+    line-height: 1.5em;
+    text-align: start;
+
+
+
+
+}
+
+.article_title {
+    width: 100%;
+
+}
+
+.article_image {
+    width: 50%;
+
+}
+
+.article_image>img {
+
+    width: 100%;
+
+}
+
+.article_text {
+    width: 50%;
+
+}
+
+#vienne_btn2 {
+    background: #00a2ff;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 22px;
+    cursor: pointer;
+    padding: .5rem .3rem;
+    text-decoration: 0;
+    width: 100px;
+
+
+
+}
+
+
+#toto2 {
+
+    border-bottom: 1px solid #000000;
+    width: 100%;
+
+    margin: 10px auto;
+}
+
+#marrakech {
+
+    text-align: start;
+    line-height: 1.5em;
+}
+
+.marrakech_wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 1rem
+}
+
+.marrakech-title {
+    width: 100%;
+
+}
+
+.marrakech-image {
+    width: 40%;
+
+}
+
+.marrakech-text {
+    width: 60%;
+
+}
+
+.ville {
+    color: red;
+    text-decoration: 0;
+}
+
+.ville2 {
+    color: rgb(255, 187, 0);
+    text-decoration: 0;
+}
+
+#marrakech_btn2 {
+    background: #00a2ff;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    height: 22px;
+    cursor: pointer;
+    padding: .5rem .3rem;
+    text-decoration: 0;
+    width: 100px;
+
+
+
+}
+
+.apropos {
+    display: flex;
+    width: 100%;
+    text-align: start;
+    background-image: url("images/fond.jpg");
+    background-size: cover;
+
+}
+
+#banner {
+    
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.box{
+    margin: 10px;
+     background: white;
+     padding: 10px;
+    
+     
+}
+
+a {
+    color: cyan;
+}
+
+
+.footer {
+    background: #40CCEA;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: center;
+
+
+}
